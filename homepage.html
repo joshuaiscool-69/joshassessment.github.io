@@ -1,1 +1,42 @@
-hi losser
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            text-align: center;
+            font-family: sans-serif;
+        }
+        button {
+            background-color: teal;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <h1>My First Interactive Website</h1>
+    <p>Click the button to get a greeting.</p>
+    <button onclick="greetUser()">Greet Me!</button>
+
+    <script>
+        function greetUser() {
+            let name = prompt("What's your name?");
+            if (name) {
+                alert("Nice to meet you, " + name + "!");
+            } else {
+                alert("Hello mysterious stranger!");
+            }
+        }
+    </script>
+</body>
+</html>
+
