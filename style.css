@@ -1,4 +1,4 @@
-/* Reset / base */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-/* Navbar */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,7 @@ nav .nav-links a:hover {
   color: #dc2626;
 }
 
-/* Hero */
+
 .hero {
   background: linear-gradient(to right, #ef4444, #ec4899);
   color: #fff;
@@ -56,7 +56,7 @@ nav .nav-links a:hover {
   font-size: 1.2rem;
 }
 
-/* Sections */
+
 section {
   padding: 4rem 2rem;
 }
@@ -68,7 +68,7 @@ section h3 {
   text-align: center;
 }
 
-/* About */
+
 .about p {
   max-width: 800px;
   margin: 0 auto;
@@ -76,7 +76,7 @@ section h3 {
   font-size: 1.1rem;
 }
 
-/* Resources */
+
 .resources {
   background: #f3f4f6;
 }
@@ -106,7 +106,7 @@ section h3 {
   transform: translateY(-5px);
 }
 
-/* Buttons */
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -135,7 +135,7 @@ section h3 {
   background: #f3f4f6;
 }
 
-/* Stories */
+
 .stories p {
   max-width: 700px;
   margin: 0 auto 2rem;
@@ -143,13 +143,13 @@ section h3 {
   font-size: 1.1rem;
 }
 
-/* Contact */
+
 .contact p {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
 }
 
-/* Footer */
+
 footer {
   background: #fff;
   padding: 1.5rem;
@@ -157,4 +157,35 @@ footer {
   font-size: 0.9rem;
   color: #666;
   border-top: 1px solid #eee;
+}
+.contact {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+}
+
+.contact-note {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
 }
